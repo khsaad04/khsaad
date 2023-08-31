@@ -1,0 +1,45 @@
+.skills {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.skills div h3 {
+    font-size: var(--size-3xl);
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 1em;
+}
+
+.skills div p {
+    font-size: var(--size-l);
+    font-weight: 500;
+    max-width: 55ch;
+    line-height: 1.25em;
+    margin-bottom: 1em;
+}
+
+.skills div .list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100px);
+    gap: 1.5em;
+}
+
+.skills div .list .box {
+    height: 140px;
+    padding: 1em;
+    background-color: var(--secondary);
+    border-radius: 10px;
+}
+
+.skills div .list .box h4 {
+    margin-bottom: 1em;
+}
+
+.skills img {
+    height: 75px;
+    width: 75px;
+}
