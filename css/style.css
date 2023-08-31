@@ -1,0 +1,73 @@
+:root {
+    --text: #cdd6f4;
+    --background: #090910;
+    --primary: #89b4fa;
+    --secondary: #07232c;
+    --accent: #74c7ec; 
+
+    --size-s: clamp(.75rem, .875vw, 1rem);
+    --size-base: clamp(.875rem, 1vw, 1.125rem);
+    --size-l: clamp(1rem, 1.125vw, 1.25rem);
+    --size-xl: clamp(1.125rem, 1.25vw, 1.5rem);
+    --size-2xl: clamp(1.25rem, 1.5vw, 1.875rem);
+    --size-3xl: clamp(1.5rem, 1.875vw, 2.25rem);
+    --size-4xl: clamp(1.875rem, 2.25vw, 3rem);
+    --size-5xl: clamp(2.25rem, 3vw, 3.75rem);
+    --size-6xl: clamp(3rem, 3.75vw, 4.5rem);
+    --size-7xl: clamp(3.75rem, 4.5vw, 6rem);
+    --size-8xl: clamp(4.5rem, 6vw, 8rem);
+    --size-9xl: clamp(6rem, 8vw, 10rem);
+    --size-10xl: clamp(8rem, 10vw, 12rem);
+}
+
+* {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    z-index: 10000000;
+}
+
+body {
+    background-color: var(--background);
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text);
+    overflow-x: hidden;
+}
+
+footer {
+    width: 100vw;
+    background: #000000;
+    text-align: center;
+    padding: 3em;
+}
+
+a {
+    text-decoration: none;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+
+button {
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: inherit;
+}

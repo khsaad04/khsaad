@@ -1,0 +1,19 @@
+.home {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.home h1 {
+    font-size: var(--size-8xl);
+    padding-bottom: .5em;
+}
+
+.home h3 {
+    font-size: var(--size-4xl);
+    color: var(--accent);
+    padding-bottom: .5em;
+}

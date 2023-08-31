@@ -1,0 +1,44 @@
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+header nav .logo,
+header nav ul li a {
+    font-size: var(--size-xl);
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--text);
+    transition: all .3s;
+}
+
+header nav .logo {
+    font-weight: 700;
+}
+
+header nav ul li a:hover {
+    color: var(--accent);
+}
+
+header nav button {
+    background-color: var(--primary);
+    color: var(--secondary);
+    border-radius: 4px;
+    padding: .35em;
+    transition: all .3s;
+}
+
+header nav button:hover {
+    transform: translateY(-3px);
+}
