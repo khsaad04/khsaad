@@ -1,8 +1,7 @@
 .home {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 30rem);
+    grid-template-columns: repeat(auto-fit, clamp(10rem, 60%, 30rem));
     place-content: center;
-    min-height: 100vh;
 }
 
 .home .hero {

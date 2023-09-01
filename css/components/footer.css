@@ -1,0 +1,38 @@
+footer {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+footer div button {
+    font-size: var(--size-3xl);
+    color: var(--accent);
+    transition: all .3s;
+}
+
+.github:hover {
+    color: #333;
+}
+
+.discord:hover {
+    color: #7289DA;
+}
+
+.email:hover {
+    color: #bb001b;
+}
+
+footer p {
+    color: var(--text);
+    font-size: var(--size-base);
+    font-weight: 500;
+    padding: 1em 0;
+}
