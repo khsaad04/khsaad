@@ -28,25 +28,41 @@
     font-weight: 600;
 }
 
-.skills .list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 100px);
-    gap: .6em;
+/* .skills .list { */
+/*     display: grid; */
+/*     grid-template-columns: repeat(auto-fit, 100px); */
+/*     gap: .6em; */
+/*     padding-top: 4em; */
+/* } */
+/**/
+/* .skills .list .box { */
+/*     height: 140px; */
+/*     padding: 1em; */
+/*     background-color: var(--secondary); */
+/*     border-radius: 10px; */
+/* } */
+/**/
+/* .skills .list .box h4 { */
+/*     margin-bottom: 1em; */
+/* } */
+/**/
+/* .skills img { */
+/*     height: 75px; */
+/*     width: 75px; */
+/* } */
+
+.skills ul {
     padding-top: 4em;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    gap: .5em;
+    padding-left: 1em;
 }
 
-.skills .list .box {
-    height: 140px;
-    padding: 1em;
-    background-color: var(--secondary);
-    border-radius: 10px;
-}
-
-.skills .list .box h4 {
-    margin-bottom: 1em;
-}
-
-.skills img {
-    height: 75px;
-    width: 75px;
+.skills ul li {
+    color: var(--text);
+    font-size: var(--size-2xl);
+    font-weight: 600;
 }
