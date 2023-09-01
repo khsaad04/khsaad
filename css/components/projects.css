@@ -27,7 +27,7 @@
 .projects .list {
     display: grid;
     grid-template-columns: repeat(auto-fit, 100px);
-    gap: 1.5em;
+    gap: .6em;
     padding-top: 4em;
 }
 
