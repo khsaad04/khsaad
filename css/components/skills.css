@@ -1,7 +1,7 @@
 .skills {
     display: grid;
-    grid-template-columns: repeat(auto-fit, clamp(10rem, 60%, 30rem));
-    place-content: center;
+    grid-template-columns: repeat(auto-fit, clamp(20rem, 60%, 35rem));
+    place-content: start;
 }
 
 .skills .main {

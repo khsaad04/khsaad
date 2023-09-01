@@ -1,7 +1,7 @@
 .home {
     display: grid;
-    grid-template-columns: repeat(auto-fit, clamp(10rem, 60%, 30rem));
-    place-content: center;
+    grid-template-columns: repeat(auto-fit, clamp(20rem, 60%, 35rem));
+    place-content: start;
 }
 
 .home .hero {
@@ -9,12 +9,12 @@
 }
 
 .home .hero h1 {
-    font-size: var(--size-8xl);
+    font-size: var(--size-7xl);
     padding-bottom: .5em;
 }
 
 .home .hero h3 {
-    font-size: var(--size-4xl);
+    font-size: var(--size-3xl);
     color: var(--accent);
     padding-bottom: .5em;
 }
