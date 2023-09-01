@@ -8,36 +8,46 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
         <!-- css -->
         <link href="css/normalize.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <link href="css/utils.css" rel="stylesheet">
         <link href="css/components/nav.css" rel="stylesheet">
         <link href="css/components/home.css" rel="stylesheet">
-        <link href="css/components/about.css" rel="stylesheet">
         <link href="css/components/skills.css" rel="stylesheet">
         <link href="css/components/projects.css" rel="stylesheet">
+        <!-- scripts -->
+        <script defer src="scripts/mobile_nav.js"></script>
     </head>
     <body>
         <header>
-            <nav class="container">
+            <nav class="desktop container">
                 <a class="logo" href="index.html">KHS</a>
                 <ul>
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
                 </ul>
-                <button>Contact</button>
+                <button onclick="window.open('contact.html');">Contact</button>
+                <button onclick=appear() class="icon"><i class="ri-menu-line"></i></button>
+            </nav>
+            <nav class="mobile container hidden">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+                <button onclick="window.open('contact.html');">Contact</button>
             </nav>
         </header>
         <main>
             <section id="home" class="home container">
-                <h1>KH SAAD</h1>
-                <h3>A Software Developer.</h3>
-            </section>
-            <section id="about" class="about container">
-                <div>
+                <div class="hero">
+                    <h1>KH<strong>.</strong>SAAD</h1>
+                    <h3>A Software Developer.</h3>
+                </div>
+                <div class="about">
                     <h3>About me</h3>
                     <p>Hello, my name is KH Saad.
                     <br>
@@ -52,46 +62,46 @@
                 </div>
             </section>
             <section id="skills" class="skills container">
-                <div>
+                <div class="main">
                     <h3>Skills</h3>
-                    <p>Here are the languages that I currently know.</p>
-                    <div class="list">
-                        <div class="box">
-                            <h4>Python</h4>
-                            <img src="assets/python.svg" alt="python image">
-                        </div>
-                        <div class="box">
-                            <h4>Rust</h4>
-                            <img src="assets/rust.svg" alt="rust image">
-                        </div>
-                        <div class="box">
-                            <h4 >Js</h4>
-                            <img src="assets/javascript.svg" alt="js image">
-                        </div>
-                        <div class="box">
-                            <h4 >Html</h4>
-                            <img src="assets/html.svg" alt="html image">
-                        </div>
-                        <div class="box">
-                            <h4 >CSS</h4>
-                            <img src="assets/css.svg" alt="html image">
-                        </div>
-                        <div class="box">
-                            <h4 >Lua</h4>
-                            <img src="assets/lua.svg" alt="html image">
-                        </div>
+                    <p>I first started coding in 2020. My first programming language was Python. Here are all the <strong>programming languages</strong> that I've learned throughout my journey.</p>
+                </div>
+                <div class="list">
+                    <div class="box">
+                        <h4>Python</h4>
+                        <img src="assets/python.svg" alt="python image">
+                    </div>
+                    <div class="box">
+                        <h4>Rust</h4>
+                        <img src="assets/rust.svg" alt="rust image">
+                    </div>
+                    <div class="box">
+                        <h4 >Js</h4>
+                        <img src="assets/javascript.svg" alt="js image">
+                    </div>
+                    <div class="box">
+                        <h4 >Html</h4>
+                        <img src="assets/html.svg" alt="html image">
+                    </div>
+                    <div class="box">
+                        <h4 >CSS</h4>
+                        <img src="assets/css.svg" alt="html image">
+                    </div>
+                    <div class="box">
+                        <h4 >Lua</h4>
+                        <img src="assets/lua.svg" alt="html image">
                     </div>
                 </div>
             </section>
             <section id="projects" class="projects container">
-                <div>
+                <div class="main">
                     <h3>Projects</h3>
-                    <p>Here are some projects I've worked on and/or currently working on.</p>
-                    <div class="list">
-                        <div class="box">
-                            <h4><a class="projects__link" href="https://github.com/khsaad04/cerebro">Cerebro</a></h4>
-                            <img src="assets/cerrebro.png" alt="cerebro image">
-                        </div>
+                    <p>Here are some of the projects that I've worked on and/or currently working on.</p>
+                </div>
+                <div class="list">
+                    <div class="box">
+                        <h4><a class="projects__link" href="https://github.com/khsaad04/cerebro">Cerebro</a></h4>
+                        <img src="assets/cerrebro.png" alt="cerebro image">
                     </div>
                 </div>
             </section>

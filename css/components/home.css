@@ -1,19 +1,43 @@
 .home {
-    position: relative;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30rem);
+    place-content: center;
+    min-height: 100vh;
 }
 
-.home h1 {
+.home .hero {
+    padding-top: 5em;
+}
+
+.home .hero h1 {
     font-size: var(--size-8xl);
     padding-bottom: .5em;
 }
 
-.home h3 {
+.home .hero h3 {
     font-size: var(--size-4xl);
     color: var(--accent);
     padding-bottom: .5em;
+}
+
+.home .about {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    padding-top: 5em;
+    padding-bottom: 4em;
+}
+
+.home .about h3 {
+    font-size: var(--size-3xl);
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 1em;
+}
+
+.home .about p {
+    font-size: var(--size-l);
+    font-weight: 500;
+    line-height: 1.5em;
 }

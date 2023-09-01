@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>KHSaad</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+        <!-- css -->
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/utils.css" rel="stylesheet">
+        <link href="css/components/nav.css" rel="stylesheet">
+        <link href="css/components/contact.css" rel="stylesheet">
+        <!-- scripts -->
+        <script defer src="scripts/mobile_nav.js"></script>
+        <script defer src="scripts/message.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="desktop container">
+                <a class="logo" href="index.html">KHS</a>
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#skills">Skills</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                </ul>
+                <button onclick="window.open('contact.html');">Contact</button>
+                <button onclick=appear() class="icon"><i class="ri-menu-line"></i></button>
+            </nav>
+            <nav class="mobile container hidden">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+                <button onclick="window.open('contact.html');">Contact</button>
+            </nav>
+        </header>
+        <main>
+            <section id="contact" class="contact container">
+                <h3>Contact</h3>
+                <p>Type your name and a short message in order to reach out to me or you can just send me an <a href="mailto:khsaad0404@gmail.com">email</a>.</p>
+                <form id="form">
+                    <label class="name">Name</label>
+                    <input type="text" name="name" placeholder="e.g John Doe" required>
+                    <label class="message">Message</label>
+                    <input type="text" name="message" required>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>

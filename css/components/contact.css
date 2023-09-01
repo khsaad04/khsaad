@@ -1,0 +1,62 @@
+.contact {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1em;
+    margin-bottom: 8em;
+    min-height: 100vh;
+}
+
+.contact h3 {
+    font-size: var(--size-3xl);
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 1em;
+}
+
+.contact p {
+    font-size: var(--size-l);
+    font-weight: 500;
+    max-width: 50ch;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+
+.contact p a {
+    color: var(--accent);
+}
+
+#form {
+    display: flex;
+    flex-flow: column;
+    width: 50ch;
+}
+
+#form label {
+    font-weight: 700;
+}
+
+#form input {
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 10px;
+    height: 2em;
+    background-color: var(--secondary);
+    color: var(--text);
+    border: none;
+}
+
+#form button {
+    font-weight: 600;
+    background-color: var(--primary);
+    color: var(--secondary);
+    border-radius: 4px;
+    padding: .35em;
+    transition: all .3s;
+    width: 5em;
+}
+
+#form button:hover {
+    transform: translateY(-3px);
+}

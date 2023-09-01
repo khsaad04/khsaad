@@ -1,41 +1,48 @@
 .skills {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 4em;
-    padding-bottom: 4em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30rem);
+    place-content: center;
 }
 
-.skills div h3 {
+.skills .main {
+    padding-top: 4em;
+}
+
+.skills .main h3 {
     font-size: var(--size-3xl);
     font-weight: 600;
     color: var(--primary);
     margin-bottom: 1em;
 }
 
-.skills div p {
+.skills .main p {
     font-size: var(--size-l);
     font-weight: 500;
     max-width: 55ch;
-    line-height: 1.25em;
+    line-height: 1.5em;
     margin-bottom: 1em;
 }
 
-.skills div .list {
+.skills .main p strong {
+    font-size: var(--size-l);
+    font-weight: 600;
+}
+
+.skills .list {
     display: grid;
     grid-template-columns: repeat(auto-fit, 100px);
     gap: 1.5em;
+    padding-top: 4em;
 }
 
-.skills div .list .box {
+.skills .list .box {
     height: 140px;
     padding: 1em;
     background-color: var(--secondary);
     border-radius: 10px;
 }
 
-.skills div .list .box h4 {
+.skills .list .box h4 {
     margin-bottom: 1em;
 }
 
