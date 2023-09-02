@@ -1,6 +1,6 @@
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, clamp(20rem, 60%, 35rem));
+    grid-template-columns: repeat(auto-fit, clamp(20rem, 45%, 50rem));
     place-content: start;
     margin-bottom: 4em;
 }

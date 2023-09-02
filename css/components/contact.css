@@ -1,11 +1,12 @@
 .contact {
     display: flex;
     flex-flow: column;
-    justify-content: center;
+    justify-content: start;
     align-items: start;
     gap: 1em;
     margin-top: 3em;
     margin-bottom: 3em;
+    min-height: 100vh;
 }
 
 .contact h3 {
