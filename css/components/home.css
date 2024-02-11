@@ -1,7 +1,7 @@
 .home {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 45ch);
-    place-content: start;
+    grid-template-columns: repeat(auto-fit, clamp(1ch, 90vw, 45ch));
+    place-content: center;
 }
 
 .home .hero {
@@ -39,11 +39,4 @@
     font-size: var(--size-l);
     font-weight: 500;
     line-height: 1.5em;
-}
-
-/* sm */
-@media (max-width: 640px) {
-    .home {
-        place-content: center;
-    }
 }

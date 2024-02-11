@@ -1,7 +1,7 @@
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 45ch);
-    place-content: start;
+    grid-template-columns: repeat(auto-fit, clamp(1ch, 90vw, 45ch));
+    place-content: center;
     margin-bottom: 4em;
 }
 
@@ -49,11 +49,4 @@
 .projects img {
     height: 75px;
     width: 75px;
-}
-
-/* sm */
-@media (max-width: 640px) {
-    .projects {
-        place-content: center;
-    }
 }

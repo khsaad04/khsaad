@@ -1,7 +1,7 @@
 .skills {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 45ch);
-    place-content: start;
+    grid-template-columns: repeat(auto-fit, clamp(1ch, 90vw, 45ch));
+    place-content: center;
 }
 
 .skills .main {
@@ -42,11 +42,4 @@
     color: var(--text);
     font-size: var(--size-2xl);
     font-weight: 600;
-}
-
-/* sm */
-@media (max-width: 640px) {
-    .skills {
-        place-content: center;
-    }
 }
