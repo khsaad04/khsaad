@@ -1,102 +1,148 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <title>KHSaad</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="KH Saad's portfolio website.">
-        <!-- fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-        <!-- css -->
-        <link href="css/normalize.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
-        <link href="css/utils.css" rel="stylesheet">
-        <link href="css/components/nav.css" rel="stylesheet">
-        <link href="css/components/home.css" rel="stylesheet">
-        <link href="css/components/skills.css" rel="stylesheet">
-        <link href="css/components/projects.css" rel="stylesheet">
-        <link href="css/components/footer.css" rel="stylesheet">
-        <!-- scripts -->
-        <script defer src="scripts/mobile_nav.js"></script>
-    </head>
-    <body>
-        <header>
-            <nav class="desktop container">
-                <a class="logo" href="index.html">KHS</a>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                </ul>
-                <button onclick="window.location.replace('contact.html');">Contact</button>
-                <button onclick=appear() class="icon"><i class="ri-menu-line"></i></button>
-            </nav>
-            <nav class="mobile container hidden">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                </ul>
-                <button onclick="window.location.replace('contact.html');">Contact</button>
-            </nav>
-        </header>
-        <main>
-            <section id="home" class="home container">
-                <div class="hero">
-                    <h1>KH<strong>.</strong>SAAD</h1>
-                    <h3>Software Developer.</h3>
-                </div>
-                <div class="about">
-                    <h3>About me</h3>
-                    <p>Hello, KH Saad here.
-                    <br>
-                    <br>
-                    I'm a self taught programmer from Bangladesh. I don't specialize in anything, just eager to learn new skills.
-                    <br>
-                    <br>
-                    I'm currently focusing on my studies but I code in my free time. I'm interested in game development, language development, simulation etc.
-                    <br>
-                    <br>
-                    I also like customizing my linux desktop environment in my free time.</p>
-                </div>
-            </section>
-            <section id="skills" class="skills container">
-                <div class="main">
-                    <h3>Skills</h3>
-                    <p>I first started coding in 2020. My first programming language was Python. Here are all the <strong>programming languages</strong> that I've learned throughout my journey.</p>
-                </div>
-                <ul>
-                    <li>Python</li>
-                    <li>Rust</li>
-                    <li>C</li>
-                    <li>Javascript</li>
-                    <li>Lua</li>
-                    <li>Zig</li>
-                </ul>
-            </section>
-            <section id="projects" class="projects container">
-                <div class="main">
-                    <h3>Projects</h3>
-                    <p>Here are some of the projects that I've worked on and/or currently working on.</p>
-                </div>
-                <div class="list">
-                    <div class="box">
-                        <h4><a class="projects__link" href="https://github.com/khsaad04/cerebro">Cerebro</a></h4>
-                        <img src="assets/cerrebro.png" alt="cerebro image">
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <div>
-                <button onclick="window.open('https://github.com/khsaad04');" class="github"><i class="ri-github-fill"></i></button>
-                <button onclick="window.open('https://discordapp.com/users/733190599636680735');" class="discord"><i class="ri-discord-fill"></i></button>
-                <button onclick="window.open('mailto:khsaad0404@gmail.com');" class="email"><i class="ri-mail-open-fill"></i></button>
-            </div>
-            <p>© 2023 KHSaad</p>
-        </footer>
-    </body>
+  <head>
+    <title>KHSaad</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="KH Saad's portfolio website." />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- css -->
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/utils.css" rel="stylesheet" />
+    <link href="css/components/nav.css" rel="stylesheet" />
+    <link href="css/components/home.css" rel="stylesheet" />
+    <link href="css/components/skills.css" rel="stylesheet" />
+    <link href="css/components/projects.css" rel="stylesheet" />
+    <link href="css/components/footer.css" rel="stylesheet" />
+    <!-- scripts -->
+    <script defer src="scripts/mobile_nav.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="desktop container">
+        <a class="logo" href="index.html">KHS</a>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+        <button onclick="window.location.replace('contact.html');">
+          Contact
+        </button>
+        <button onclick="appear()" class="icon">
+          <i class="ri-menu-line"></i>
+        </button>
+      </nav>
+      <nav class="mobile container hidden">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+        <button onclick="window.location.replace('contact.html');">
+          Contact
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="home container">
+        <div class="hero">
+          <h1>KH<strong>.</strong>SAAD</h1>
+          <h3>Software Developer.</h3>
+        </div>
+        <div class="about">
+          <h3>About me</h3>
+          <p>
+            Hello, KH Saad here.
+            <br />
+            <br />
+            I'm a self taught programmer from Bangladesh. I don't specialize in
+            anything, just eager to learn new skills.
+            <br />
+            <br />
+            I'm currently focusing on my studies but I code in my free time. I'm
+            interested in game development, language development, simulation
+            etc.
+            <br />
+            <br />
+            I also like customizing my linux desktop environment in my free
+            time.
+          </p>
+        </div>
+      </section>
+      <section id="skills" class="skills container">
+        <div class="main">
+          <h3>Skills</h3>
+          <p>
+            I first started coding in 2020. My first programming language was
+            Python. Here are all the <strong>programming languages</strong> that
+            I've learned throughout my journey.
+          </p>
+        </div>
+        <ul>
+          <li>Python</li>
+          <li>Rust</li>
+          <li>C</li>
+          <li>Javascript</li>
+          <li>Lua</li>
+          <li>Zig</li>
+        </ul>
+      </section>
+      <section id="projects" class="projects container">
+        <div class="main">
+          <h3>Projects</h3>
+          <p>
+            Here are some of the projects that I've worked on and/or currently
+            working on.
+          </p>
+        </div>
+        <div class="list">
+          <div class="box">
+            <h4>
+              <a
+                class="projects__link"
+                href="https://github.com/khsaad04/cerebro"
+                >Cerebro</a
+              >
+            </h4>
+            <img src="assets/cerrebro.png" alt="cerebro image" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <button
+          onclick="window.open('https://github.com/khsaad04');"
+          class="github"
+        >
+          <i class="ri-github-fill"></i>
+        </button>
+        <button
+          onclick="window.open('https://discordapp.com/users/733190599636680735');"
+          class="discord"
+        >
+          <i class="ri-discord-fill"></i>
+        </button>
+        <button
+          onclick="window.open('mailto:khsaad0404@gmail.com');"
+          class="email"
+        >
+          <i class="ri-mail-open-fill"></i>
+        </button>
+      </div>
+      <p>© 2023 KHSaad</p>
+    </footer>
+  </body>
 </html>

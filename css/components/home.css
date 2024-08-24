@@ -1,42 +1,42 @@
 .home {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, clamp(1ch, 90vw, 45ch));
-    place-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, clamp(1ch, 90vw, 45ch));
+  place-content: center;
 }
 
 .home .hero {
-    padding-top: 5em;
+  padding-top: 5em;
 }
 
 .home .hero h1 {
-    font-size: var(--size-7xl);
-    padding-bottom: .5em;
+  font-size: var(--size-7xl);
+  padding-bottom: 0.5em;
 }
 
 .home .hero h3 {
-    font-size: var(--size-3xl);
-    color: var(--accent);
-    padding-bottom: .5em;
+  font-size: var(--size-3xl);
+  color: var(--accent);
+  padding-bottom: 0.5em;
 }
 
 .home .about {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: start;
-    padding-top: 5em;
-    padding-bottom: 4em;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: start;
+  padding-top: 5em;
+  padding-bottom: 4em;
 }
 
 .home .about h3 {
-    font-size: var(--size-3xl);
-    font-weight: 600;
-    color: var(--primary);
-    margin-bottom: 1em;
+  font-size: var(--size-3xl);
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 1em;
 }
 
 .home .about p {
-    font-size: var(--size-l);
-    font-weight: 500;
-    line-height: 1.5em;
+  font-size: var(--size-l);
+  font-weight: 500;
+  line-height: 1.5em;
 }

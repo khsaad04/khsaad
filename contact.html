@@ -1,66 +1,96 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <title>KHSaad</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-        <!-- css -->
-        <link href="css/normalize.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
-        <link href="css/utils.css" rel="stylesheet">
-        <link href="css/components/nav.css" rel="stylesheet">
-        <link href="css/components/contact.css" rel="stylesheet">
-        <link href="css/components/footer.css" rel="stylesheet">
-        <!-- scripts -->
-        <script defer src="scripts/mobile_nav.js"></script>
-        <script defer src="scripts/message.js"></script>
-    </head>
-    <body>
-        <header>
-            <nav class="desktop container">
-                <a class="logo" href="index.html">KHS</a>
-                <ul>
-                    <li><a href="index.html#home">Home</a></li>
-                    <li><a href="index.html#skills">Skills</a></li>
-                    <li><a href="index.html#projects">Projects</a></li>
-                </ul>
-                <button onclick="window.location.replace('contact.html');">Contact</button>
-                <button onclick=appear() class="icon"><i class="ri-menu-line"></i></button>
-            </nav>
-            <nav class="mobile container hidden">
-                <ul>
-                    <li><a href="index.html#home">Home</a></li>
-                    <li><a href="index.html#skills">Skills</a></li>
-                    <li><a href="index.html#projects">Projects</a></li>
-                </ul>
-                <button onclick="window.location.replace('contact.html');">Contact</button>
-            </nav>
-        </header>
-        <main>
-            <section id="contact" class="contact container">
-                <h3>Contact</h3>
-                <p>Type in your name and a brief message or you can just send me an <a href="mailto:khsaad0404@gmail.com">email</a>.</p>
-                <form id="form">
-                    <label class="name">Name</label>
-                    <input type="text" name="name" placeholder="e.g John Doe" required>
-                    <label class="message">Message</label>
-                    <textarea name="message" rows="4" cols="25"></textarea>
-                    <button type="submit">Submit</button>
-                </form>
-            </section>
-        </main>
-        <footer>
-            <div>
-                <button onclick="window.open('https://github.com/khsaad04');" class="github"><i class="ri-github-fill"></i></button>
-                <button onclick="window.open('https://discordapp.com/users/733190599636680735');" class="discord"><i class="ri-discord-fill"></i></button>
-                <button onclick="window.open('mailto:khsaad0404@gmail.com');" class="email"><i class="ri-mail-open-fill"></i></button>
-            </div>
-            <p>© 2023 KHSaad</p>
-        </footer>
-    </body>
+  <head>
+    <title>KHSaad</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- css -->
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/utils.css" rel="stylesheet" />
+    <link href="css/components/nav.css" rel="stylesheet" />
+    <link href="css/components/contact.css" rel="stylesheet" />
+    <link href="css/components/footer.css" rel="stylesheet" />
+    <!-- scripts -->
+    <script defer src="scripts/mobile_nav.js"></script>
+    <script defer src="scripts/message.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="desktop container">
+        <a class="logo" href="index.html">KHS</a>
+        <ul>
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="index.html#skills">Skills</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+        </ul>
+        <button onclick="window.location.replace('contact.html');">
+          Contact
+        </button>
+        <button onclick="appear()" class="icon">
+          <i class="ri-menu-line"></i>
+        </button>
+      </nav>
+      <nav class="mobile container hidden">
+        <ul>
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="index.html#skills">Skills</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+        </ul>
+        <button onclick="window.location.replace('contact.html');">
+          Contact
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section id="contact" class="contact container">
+        <h3>Contact</h3>
+        <p>
+          Type in your name and a brief message or you can just send me an
+          <a href="mailto:khsaad0404@gmail.com">email</a>.
+        </p>
+        <form id="form">
+          <label class="name">Name</label>
+          <input type="text" name="name" placeholder="e.g John Doe" required />
+          <label class="message">Message</label>
+          <textarea name="message" rows="4" cols="25"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <button
+          onclick="window.open('https://github.com/khsaad04');"
+          class="github"
+        >
+          <i class="ri-github-fill"></i>
+        </button>
+        <button
+          onclick="window.open('https://discordapp.com/users/733190599636680735');"
+          class="discord"
+        >
+          <i class="ri-discord-fill"></i>
+        </button>
+        <button
+          onclick="window.open('mailto:khsaad0404@gmail.com');"
+          class="email"
+        >
+          <i class="ri-mail-open-fill"></i>
+        </button>
+      </div>
+      <p>© 2023 KHSaad</p>
+    </footer>
+  </body>
 </html>

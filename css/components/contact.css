@@ -1,64 +1,64 @@
 .contact {
-    display: flex;
-    flex-flow: column;
-    justify-content: start;
-    align-items: start;
-    gap: 1em;
-    margin-top: 3em;
-    margin-bottom: 3em;
+  display: flex;
+  flex-flow: column;
+  justify-content: start;
+  align-items: start;
+  gap: 1em;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
 .contact h3 {
-    font-size: var(--size-3xl);
-    font-weight: 600;
-    color: var(--primary);
+  font-size: var(--size-3xl);
+  font-weight: 600;
+  color: var(--primary);
 }
 
 .contact p {
-    font-size: var(--size-l);
-    font-weight: 500;
-    max-width: 50ch;
-    line-height: 1.5em;
+  font-size: var(--size-l);
+  font-weight: 500;
+  max-width: 50ch;
+  line-height: 1.5em;
 }
 
 .contact p a {
-    color: var(--accent);
+  color: var(--accent);
 }
 
 #form {
-    display: flex;
-    flex-flow: column;
-    gap: 1em;
+  display: flex;
+  flex-flow: column;
+  gap: 1em;
 }
 
 #form label {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 #form textarea,
 #form input {
-    padding: 1em;
-    border-radius: 10px;
-    height: 2em;
-    background-color: var(--secondary);
-    color: var(--text);
-    border: none;
+  padding: 1em;
+  border-radius: 10px;
+  height: 2em;
+  background-color: var(--secondary);
+  color: var(--text);
+  border: none;
 }
 
 #form textarea {
-    height: initial;
+  height: initial;
 }
 
 #form button {
-    font-weight: 600;
-    background-color: var(--primary);
-    color: var(--secondary);
-    border-radius: 4px;
-    padding: .35em;
-    transition: all .3s;
-    width: 5em;
+  font-weight: 600;
+  background-color: var(--primary);
+  color: var(--secondary);
+  border-radius: 4px;
+  padding: 0.35em;
+  transition: all 0.3s;
+  width: 5em;
 }
 
 #form button:hover {
-    transform: translateY(-3px);
+  transform: translateY(-3px);
 }
