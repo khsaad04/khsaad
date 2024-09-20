@@ -63,6 +63,11 @@ header .desktop button {
   transition: all 0.3s;
 }
 
+header .desktop button a,
+header .mobile button a {
+  all: unset;
+}
+
 header .desktop .icon {
   font-size: var(--size-2xl);
 }
