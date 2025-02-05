@@ -1,60 +1,60 @@
 .projects {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, clamp(1ch, 90vw, 45ch));
-  place-content: center;
-  margin-bottom: 4em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, clamp(1ch, 90vw, 45ch));
+    place-content: center;
+    margin-bottom: 4em;
 }
 
 .projects .main {
-  padding-top: 4em;
+    padding-top: 4em;
 }
 
 .projects .main h3 {
-  font-size: var(--size-3xl);
-  font-weight: 600;
-  color: var(--primary);
-  margin-bottom: 1em;
+    font-size: var(--size-3xl);
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 1em;
 }
 
 .projects .main p {
-  font-size: var(--size-l);
-  font-weight: 500;
-  max-width: 55ch;
-  line-height: 1.5em;
-  margin-bottom: 1em;
+    font-size: var(--size-l);
+    font-weight: 500;
+    max-width: 55ch;
+    line-height: 1.5em;
+    margin-bottom: 1em;
 }
 
 .projects .list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 100px);
-  gap: 0.6em;
-  padding-top: 4em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100px);
+    gap: 0.6em;
+    padding-top: 4em;
 }
 
 .projects .list .box {
-  height: 140px;
-  padding: 1em;
-  background-color: var(--secondary);
-  border-radius: 10px;
-  transition: all 0.3s;
+    height: 140px;
+    padding: 1em;
+    background-color: var(--secondary);
+    border-radius: 10px;
+    transition: all 0.3s;
 }
 
 .projects .list .box:hover {
-  transform: translateY(-3px);
+    transform: translateY(-3px);
 }
 
 .projects .list .box a {
-  color: var(--text);
+    color: var(--text);
 }
 
 .projects .list .box h4:hover {
-  color: var(--primary);
+    color: var(--primary);
 }
 .projects .list .box h4 {
-  margin-bottom: 1em;
+    margin-bottom: 1em;
 }
 
 .projects img {
-  height: 75px;
-  width: 75px;
+    height: 75px;
+    width: 75px;
 }

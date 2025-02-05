@@ -1,99 +1,99 @@
 header .desktop {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  background-color: rgba(9, 9, 16, 0.9);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background-color: rgba(9, 9, 16, 0.9);
 }
 
 header .mobile {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  gap: 1em;
-  background-color: rgba(9, 9, 16, 0.9);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    gap: 1em;
+    background-color: rgba(9, 9, 16, 0.9);
 }
 
 header .mobile ul,
 header .desktop ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1.5rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
 }
 
 header .mobile ul {
-  flex-flow: column;
-  padding: 0;
+    flex-flow: column;
+    padding: 0;
 }
 
 header .desktop .logo,
 header .mobile ul li a,
 header .desktop ul li a {
-  font-size: var(--size-xl);
-  font-weight: 500;
-  text-transform: uppercase;
-  color: var(--text);
-  transition: all 0.3s;
+    font-size: var(--size-xl);
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--text);
+    transition: all 0.3s;
 }
 
 header .desktop .logo {
-  font-size: var(--size-3xl);
-  font-weight: 700;
+    font-size: var(--size-3xl);
+    font-weight: 700;
 }
 
 header .mobile ul li a:hover,
 header .desktop ul li a:hover {
-  color: var(--primary);
+    color: var(--primary);
 }
 
 header .desktop .icon,
 header .mobile button,
 header .desktop button {
-  font-weight: 600;
-  background-color: var(--primary);
-  color: var(--secondary);
-  border-radius: 4px;
-  padding: 0.35em;
-  transition: all 0.3s;
+    font-weight: 600;
+    background-color: var(--primary);
+    color: var(--secondary);
+    border-radius: 4px;
+    padding: 0.35em;
+    transition: all 0.3s;
 }
 
 header .desktop button a,
 header .mobile button a {
-  all: unset;
+    all: unset;
 }
 
 header .desktop .icon {
-  font-size: var(--size-2xl);
+    font-size: var(--size-2xl);
 }
 
 header .desktop .icon,
 header .mobile button:hover,
 header .desktop button:hover {
-  transform: translateY(-3px);
+    transform: translateY(-3px);
 }
 
 header .desktop .icon {
-  display: none;
+    display: none;
 }
 
 header .hidden {
-  display: none;
+    display: none;
 }
 
 /* sm */
 @media (max-width: 640px) {
-  header .desktop .icon {
-    display: flex;
-  }
+    header .desktop .icon {
+        display: flex;
+    }
 
-  header .desktop button,
-  header .desktop ul {
-    display: none;
-  }
+    header .desktop button,
+    header .desktop ul {
+        display: none;
+    }
 }

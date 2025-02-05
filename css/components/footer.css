@@ -1,38 +1,38 @@
 footer {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
 
 footer div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
 }
 
 footer div button {
-  font-size: var(--size-3xl);
-  color: var(--accent);
-  transition: all 0.3s;
+    font-size: var(--size-3xl);
+    color: var(--accent);
+    transition: all 0.3s;
 }
 
 .github:hover {
-  color: #333;
+    color: #333;
 }
 
 .discord:hover {
-  color: #7289da;
+    color: #7289da;
 }
 
 .email:hover {
-  color: #bb001b;
+    color: #bb001b;
 }
 
 footer p {
-  color: var(--text);
-  font-size: var(--size-base);
-  font-weight: 500;
-  padding: 1em 0;
+    color: var(--text);
+    font-size: var(--size-base);
+    font-weight: 500;
+    padding: 1em 0;
 }

@@ -1,45 +1,45 @@
 .skills {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, clamp(1ch, 90vw, 45ch));
-  place-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, clamp(1ch, 90vw, 45ch));
+    place-content: center;
 }
 
 .skills .main {
-  padding-top: 4em;
+    padding-top: 4em;
 }
 
 .skills .main h3 {
-  font-size: var(--size-3xl);
-  font-weight: 600;
-  color: var(--primary);
-  margin-bottom: 1em;
+    font-size: var(--size-3xl);
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 1em;
 }
 
 .skills .main p {
-  font-size: var(--size-l);
-  font-weight: 500;
-  max-width: 55ch;
-  line-height: 1.5em;
-  margin-bottom: 1em;
+    font-size: var(--size-l);
+    font-weight: 500;
+    max-width: 55ch;
+    line-height: 1.5em;
+    margin-bottom: 1em;
 }
 
 .skills .main p strong {
-  font-size: var(--size-l);
-  font-weight: 600;
+    font-size: var(--size-l);
+    font-weight: 600;
 }
 
 .skills ul {
-  padding-top: 4em;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: start;
-  gap: 0.5em;
-  padding-left: 1.25em;
+    padding-top: 4em;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    gap: 0.5em;
+    padding-left: 1.25em;
 }
 
 .skills ul li {
-  color: var(--text);
-  font-size: var(--size-2xl);
-  font-weight: 600;
+    color: var(--text);
+    font-size: var(--size-2xl);
+    font-weight: 600;
 }
