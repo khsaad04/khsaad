@@ -29,6 +29,7 @@
 }
 
 .skills ul {
+    list-style-type: disc;
     padding-top: 4em;
     display: flex;
     flex-flow: column;
