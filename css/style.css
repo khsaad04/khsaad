@@ -1,9 +1,9 @@
 :root {
-    --text: #cdd6f4;
-    --background: #090910;
-    --primary: #89b4fa;
-    --secondary: #0d1726;
-    --accent: #74c7ec;
+    --text: #e5e3d6;
+    --background: #13140c;
+    --primary: #c5cd7a;
+    --secondary: #c7c9a6;
+    --accent: #a2d0c1;
 
     --size-s: clamp(0.75rem, 0.875vw, 1rem);
     --size-base: clamp(0.875rem, 1vw, 1.125rem);
@@ -18,10 +18,6 @@
     --size-8xl: clamp(4.5rem, 6vw, 8rem);
     --size-9xl: clamp(6rem, 8vw, 10rem);
     --size-10xl: clamp(8rem, 10vw, 12rem);
-}
-
-* {
-    margin: 0;
 }
 
 html {

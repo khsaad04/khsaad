@@ -32,9 +32,9 @@
 }
 
 .projects .list .box {
-    height: 140px;
+    height: 100px;
     padding: 1em;
-    background-color: var(--secondary);
+    background-color: var(--primary);
     border-radius: 10px;
     transition: all 0.3s;
 }
@@ -44,12 +44,9 @@
 }
 
 .projects .list .box a {
-    color: var(--text);
+    color: var(--background);
 }
 
-.projects .list .box h4:hover {
-    color: var(--primary);
-}
 .projects .list .box h4 {
     margin-bottom: 1em;
 }

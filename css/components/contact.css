@@ -41,7 +41,7 @@
     border-radius: 10px;
     height: 2em;
     background-color: var(--secondary);
-    color: var(--text);
+    color: var(--background);
     border: none;
 }
 
@@ -52,7 +52,7 @@
 #form button {
     font-weight: 600;
     background-color: var(--primary);
-    color: var(--secondary);
+    color: var(--background);
     border-radius: 4px;
     padding: 0.35em;
     transition: all 0.3s;
