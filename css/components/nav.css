@@ -59,7 +59,7 @@ header .mobile button,
 header .desktop button {
     font-weight: 600;
     background-color: var(--primary);
-    color: var(--secondary);
+    color: var(--background);
     border-radius: 4px;
     padding: 0.35em;
     transition: all 0.3s;
