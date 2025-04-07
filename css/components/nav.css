@@ -62,23 +62,17 @@ header .desktop button {
     color: var(--background);
     border-radius: 4px;
     padding: 0.35em;
-    transition: all 0.3s;
-}
-
-header .desktop button a,
-header .mobile button a {
-    all: unset;
-    color: var(--background);
+    transition: all 0.1s;
 }
 
 header .desktop .icon {
     font-size: var(--size-2xl);
 }
 
-header .desktop .icon,
-header .mobile button:hover,
-header .desktop button:hover {
-    transform: translateY(-3px);
+header .mobile button:active,
+header .desktop button:active {
+    background-color: var(--secondary);
+    transform: translateY(0.05rem);
 }
 
 header .desktop .icon {

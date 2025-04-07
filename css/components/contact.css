@@ -55,10 +55,11 @@
     color: var(--background);
     border-radius: 4px;
     padding: 0.35em;
-    transition: all 0.3s;
+    transition: all 0.1s;
     width: 5em;
 }
 
-#form button:hover {
-    transform: translateY(-3px);
+#form button:active {
+    background-color: var(--secondary);
+    transform: translateY(0.05rem);
 }

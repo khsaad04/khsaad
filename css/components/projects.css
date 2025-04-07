@@ -36,11 +36,12 @@
     padding: 1em;
     background-color: var(--primary);
     border-radius: 10px;
-    transition: all 0.3s;
+    transition: all 0.1s;
 }
 
-.projects .list .box:hover {
-    transform: translateY(-3px);
+.projects .list .box:has(a:active) {
+    background-color: var(--secondary);
+    transform: translateY(0.05rem);
 }
 
 .projects .list .box a {
