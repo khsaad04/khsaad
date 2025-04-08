@@ -1,28 +1,32 @@
-.contact {
-    display: flex;
-    flex-flow: column;
-    justify-content: start;
-    align-itrems: start;
-    gap: 1rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    max-width: 45ch;
+.contacts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, clamp(1ch, 90vw, 45ch));
+    place-content: center;
+    margin-bottom: 4rem;
 }
 
-.contact h3 {
+.contacts .main {
+    padding-top: 4rem;
+}
+
+.contacts .main h3 {
     font-size: var(--size-2xl);
-    font-weight: 600;
+    font-weight: 500;
     color: var(--primary);
+    margin-bottom: 1rem;
 }
 
-.contact p {
+.contacts .main p {
+    font-size: var(--size-l);
+    font-weight: 400;
+    max-width: 55ch;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.contacts .main p a {
     font-size: var(--size-l);
     font-weight: 500;
-    max-width: 45ch;
-    line-height: 1.5rem;
-}
-
-.contact p a {
     color: var(--primary);
 }
 

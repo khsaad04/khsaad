@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, clamp(1ch, 90vw, 45ch));
     place-content: center;
-    margin-bottom: 4rem;
 }
 
 .projects .main {
