@@ -49,6 +49,8 @@
 }
 
 .projects .list .box h4 {
+    font-size: var(--size-base);
+    font-weight: 500;
     margin-bottom: 1rem;
 }
 

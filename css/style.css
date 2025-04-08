@@ -5,7 +5,7 @@
     --secondary: #c7c9a6;
     --accent: #a2d0c1;
 
-    --size-base: clamp(0.75rem, 1vw, 1rem);
+    --size-base: clamp(1rem, 1vw, 1.25rem);
     --size-l: clamp(1.25rem, 1.25vw, 1.5rem);
     --size-xl: clamp(1.5rem, 1.5vw, 1.75rem);
     --size-2xl: clamp(1.75rem, 1.75vw, 2rem);
@@ -14,12 +14,17 @@
     --size-5xl: clamp(2.5rem, 2.5vw, 3rem);
 }
 
+@font-face {
+    font-family: Iosevka;
+    src: url(assets/Iosevka-Regular.ttf);
+}
+
 html {
     scroll-behavior: smooth;
 }
-
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Iosevka";
+    font-size: 20px;
     background-color: var(--background);
     color: var(--text);
     overflow-x: hidden;
