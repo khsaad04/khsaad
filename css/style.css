@@ -5,23 +5,24 @@
     --secondary: #c7c9a6;
     --accent: #a2d0c1;
 
-    --size-s: clamp(0.75rem, 0.875vw, 1rem);
-    --size-base: clamp(0.875rem, 1vw, 1.125rem);
-    --size-l: clamp(1rem, 1.125vw, 1.25rem);
-    --size-xl: clamp(1.125rem, 1.25vw, 1.5rem);
-    --size-2xl: clamp(1.25rem, 1.5vw, 1.875rem);
-    --size-3xl: clamp(1.5rem, 1.875vw, 2.25rem);
-    --size-4xl: clamp(1.875rem, 2.25vw, 3rem);
-    --size-5xl: clamp(2.25rem, 3vw, 3.75rem);
-    --size-6xl: clamp(3rem, 3.75vw, 4.5rem);
-    --size-7xl: clamp(3.75rem, 4.5vw, 6rem);
-    --size-8xl: clamp(4.5rem, 6vw, 8rem);
-    --size-9xl: clamp(6rem, 8vw, 10rem);
-    --size-10xl: clamp(8rem, 10vw, 12rem);
+    --size-base: clamp(0.75rem, 1vw, 1rem);
+    --size-l: clamp(1.25rem, 1.25vw, 1.5rem);
+    --size-xl: clamp(1.5rem, 1.5vw, 1.75rem);
+    --size-2xl: clamp(1.75rem, 1.75vw, 2rem);
+    --size-3xl: clamp(2rem, 2vw, 2.25rem);
+    --size-4xl: clamp(2.25rem, 2.25vw, 2.5rem);
+    --size-5xl: clamp(2.5rem, 2.5vw, 3rem);
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+    overflow-x: hidden;
 }
 
 header {
@@ -32,18 +33,13 @@ header {
     z-index: 10000000;
 }
 
-body {
-    background-color: var(--background);
-    font-family: "Montserrat", sans-serif;
-    color: var(--text);
-    overflow-x: hidden;
+main {
+    min-height: 100vh;
 }
 
 footer {
     width: 100vw;
     background: #000000;
-    text-align: center;
-    padding: 3em;
 }
 
 a {
@@ -52,7 +48,7 @@ a {
 
 strong {
     color: var(--primary);
-    font-size: var(--size-6xl);
+    font-size: var(--size-4xl);
 }
 
 img,

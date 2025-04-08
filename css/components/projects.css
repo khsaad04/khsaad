@@ -2,38 +2,38 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, clamp(1ch, 90vw, 45ch));
     place-content: center;
-    margin-bottom: 4em;
+    margin-bottom: 4rem;
 }
 
 .projects .main {
-    padding-top: 4em;
+    padding-top: 4rem;
 }
 
 .projects .main h3 {
-    font-size: var(--size-3xl);
-    font-weight: 600;
+    font-size: var(--size-2xl);
+    font-weight: 500;
     color: var(--primary);
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 
 .projects .main p {
     font-size: var(--size-l);
-    font-weight: 500;
-    max-width: 55ch;
-    line-height: 1.5em;
-    margin-bottom: 1em;
+    font-weight: 400;
+    max-width: 45ch;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .projects .list {
     display: grid;
     grid-template-columns: repeat(auto-fit, 100px);
-    gap: 0.6em;
-    padding-top: 4em;
+    gap: 0.6rem;
+    padding-top: 4rem;
 }
 
 .projects .list .box {
     height: 100px;
-    padding: 1em;
+    padding: 1rem;
     background-color: var(--primary);
     border-radius: 10px;
     transition: all 0.1s;
@@ -49,7 +49,7 @@
 }
 
 .projects .list .box h4 {
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 
 .projects img {

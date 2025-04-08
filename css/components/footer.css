@@ -3,7 +3,7 @@ footer {
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    padding: 50px 0px;
+    padding: 4rem 0px;
 }
 
 footer div {
@@ -14,9 +14,9 @@ footer div {
 }
 
 footer div button {
-    font-size: var(--size-3xl);
+    font-size: var(--size-2xl);
     color: var(--accent);
-    transition: all 0.3s;
+    transition: color 0.3s;
 }
 
 .github:hover {
