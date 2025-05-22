@@ -21,11 +21,9 @@
         <link href="css/components/home.css" rel="stylesheet"/>
         <link href="css/components/skills.css" rel="stylesheet"/>
         <link href="css/components/projects.css" rel="stylesheet"/>
-        <link href="css/components/contacts.css" rel="stylesheet"/>
         <link href="css/components/footer.css" rel="stylesheet"/>
         <!-- scripts -->
         <script defer src="scripts/mobile_nav.js"></script>
-        <script defer src="scripts/message.js"></script>
     </head>
     <body>
         <header>
@@ -36,9 +34,6 @@
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
                 </ul>
-                <button onclick="location.href = '#contacts'">
-                    Contact
-                </button>
                 <button onclick="appear()" class="icon">
                     <i class="ri-menu-line"></i>
                 </button>
@@ -49,9 +44,6 @@
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
                 </ul>
-                <button onclick="location.href = '#contacts'">
-                    Contact
-                </button>
             </nav>
         </header>
         <main>
@@ -113,22 +105,6 @@
                         </a>
                     </div>
                 </div>
-            </section>
-            <section id="contacts", class="contacts container">
-                <div class="main">
-                    <h3>Contacts</h3>
-                    <p>
-                        Type in your name and a brief message or you can just send me an
-                        <a href="mailto:khsaad0404@gmail.com">email</a>.
-                    </p>
-                </div>
-                <form id="form">
-                    <label class="name">Name</label>
-                    <input type="text" name="name" placeholder="e.g John Doe" required/>
-                    <label class="message">Message</label>
-                    <textarea name="message" rows="4" cols="25"></textarea>
-                    <button type="submit">Submit</button>
-                </form>
             </section>
         </main>
         <footer>
