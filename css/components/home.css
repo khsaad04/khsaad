@@ -4,17 +4,17 @@
     place-content: center;
 }
 
-.home .hero {
+.home {
     padding-top: 5rem;
 }
 
-.home .hero h1 {
+.home h1 {
     font-size: var(--size-5xl);
     font-weight: 600;
     padding-bottom: 0.5rem;
 }
 
-.home .hero h3 {
+.home p {
     font-size: var(--size-2xl);
     color: var(--accent);
     padding-bottom: 0.5rem;
@@ -29,7 +29,7 @@
     padding-bottom: 4rem;
 }
 
-.home .about h3 {
+.home .about h2 {
     font-size: var(--size-2xl);
     font-weight: 500;
     color: var(--primary);

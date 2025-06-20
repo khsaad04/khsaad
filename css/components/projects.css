@@ -4,18 +4,18 @@
     place-content: center;
 }
 
-.projects .main {
+.projects article {
     padding-top: 4rem;
 }
 
-.projects .main h3 {
+.projects article h2 {
     font-size: var(--size-2xl);
     font-weight: 500;
     color: var(--primary);
     margin-bottom: 1rem;
 }
 
-.projects .main p {
+.projects article p {
     font-size: var(--size-l);
     font-weight: 400;
     max-width: 45ch;
@@ -23,37 +23,36 @@
     margin-bottom: 1rem;
 }
 
-.projects .list {
+.projects ul {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 100px);
+    grid-template-columns: repeat(auto-fit, clamp(1ch, 90%, 50ch));
     gap: 0.6rem;
     padding-top: 4rem;
 }
 
-.projects .list .box {
-    height: 100px;
+.projects ul .box {
     padding: 1rem;
     background-color: var(--primary);
     border-radius: 10px;
     transition: all 0.1s;
 }
 
-.projects .list .box:has(a:active) {
+.projects ul .box:has(a:active) {
     background-color: var(--secondary);
     transform: translateY(0.05rem);
 }
 
-.projects .list .box a {
+.projects ul .box a {
     color: var(--background);
 }
 
-.projects .list .box h4 {
+.projects ul .box h3 {
     font-size: var(--size-base);
     font-weight: 500;
     margin-bottom: 1rem;
 }
 
-.projects img {
-    height: 75px;
-    width: 75px;
+.projects ul .box p {
+    font-size: var(--size-base);
+    color: var(--background);
 }

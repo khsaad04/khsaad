@@ -7,14 +7,14 @@ footer {
     margin-top: 4rem;
 }
 
-footer div {
+footer ul {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
 }
 
-footer div button {
+footer ul a {
     font-size: var(--size-2xl);
     color: var(--accent);
     transition: color 0.3s;

@@ -4,18 +4,18 @@
     place-content: center;
 }
 
-.skills .main {
+.skills article {
     padding-top: 4rem;
 }
 
-.skills .main h3 {
+.skills article h2 {
     font-size: var(--size-2xl);
     font-weight: 500;
     color: var(--primary);
     margin-bottom: 1rem;
 }
 
-.skills .main p {
+.skills article p {
     font-size: var(--size-l);
     font-weight: 400;
     max-width: 55ch;
@@ -23,7 +23,7 @@
     margin-bottom: 1rem;
 }
 
-.skills .main p strong {
+.skills article p strong {
     font-size: var(--size-l);
     font-weight: 500;
 }

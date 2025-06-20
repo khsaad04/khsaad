@@ -10,10 +10,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <!-- icons -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
-            rel="stylesheet"
-        />
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet"/>
         <!-- css -->
         <link href="css/reset.css" rel="stylesheet"/>
         <link href="css/style.css" rel="stylesheet"/>
@@ -48,35 +45,20 @@
         </header>
         <main>
             <section id="home", class="home container">
-                <div class="hero">
-                    <h1>KH<strong>.</strong>SAAD</h1>
-                    <h3>Software Developer.</h3>
-                </div>
-                <div class="about">
-                    <h3>About me</h3>
-                    <p>
-                        Hello! My name is K.H. Saad.<br/><br/>I'm a self
-                        taught programmer. I don't specialize in anything, 
-                        just eager to learn new skills.<br/><br/>I'm
-                        currently focusing on my studies but I enjoy
-                        coding as a recreational activity. I'm mostly
-                        interested in game development, compiler
-                        development, operating system development,
-                        Linux-related topics etc.
-                    </p>
-                </div>
+                <h1>KH<strong>.</strong>SAAD</h1>
+                <p>Software Developer.</p>
+                <article class="about">
+                    <h2>About me</h2>
+                    <p>Hello! My name is K.H. Saad.</p>
+                    <p>I'm a self taught programmer. I don't specialize in anything, just eager to learn new skills.</p>
+                    <p>I'm currently focusing on my studies but I enjoy coding as a recreational activity. I'm mostly interested in game development, compiler development, operating system development, Linux-related topics etc.</p>
+                </article>
             </section>
             <section id="skills", class="skills container">
-                <div class="main">
-                    <h3>Skills</h3>
-                    <p>
-                        I first started coding in 2020. My first
-                        programming language was Python. Although I don't
-                        use it much these days. Here are all the
-                        <strong>programming languages</strong> that I've
-                        learned throughout my journey.
-                    </p>
-                </div>
+                <article>
+                    <h2>Skills</h2>
+                    <p>I first started coding in 2020. My first programming language was Python. Although I don't use it much these days. Here are all the <strong>programming languages</strong> that I've learned throughout my journey.</p>
+                </article>
                 <ul>
                     <li>C</li>
                     <li>C++</li>
@@ -87,47 +69,32 @@
                 </ul>
             </section>
             <section id="projects", class="projects container">
-                <div class="main">
-                    <h3>Projects</h3>
-                    <p>
-                        Here are some of the projects that I've worked on
-                        and/or currently working on.
-                    </p>
-                </div>
-                <div class="list">
-                    <div class="box">
-                        <a
-                            class="projects__link"
-                            href="https://github.com/khsaad04/cerebro"
-                        >
-                            <h4>Cerebro</h4>
-                            <img src="assets/cerrebro.webp" alt="cerebro image"/>
-                        </a>
-                    </div>
-                </div>
+                <article>
+                    <h2>Projects</h2>
+                    <p>Here are some of the projects that I've worked on and/or currently working on.</p>
+                </article>
+                <ul>
+                    <li class="box">
+                        <a href="https://github.com/khsaad04/cerebro" target="_blank"><h3>Cerebro</h3></a>
+                        <p>A general purpose discord bot made in python</p>
+                    </li>
+                    <li class="box">
+                        <a href="https://github.com/khsaad04/dotcraft" target="_blank"><h3>Dotcraft</h3></a>
+                        <p>Dotfiles manager and template generator for unix-like operating systems</p>
+                    </li>
+                    <li class="box">
+                        <a href="https://github.com/khsaad04/flagge" target="_blank"><h3>Flagge</h3></a>
+                        <p>Command line argument/flags parser made in rust</p>
+                    </li>
+                </ul>
             </section>
         </main>
         <footer>
-            <div>
-                <button
-                    onclick="window.open('https://github.com/khsaad04');"
-                    class="github"
-                >
-                    <i class="ri-github-fill"></i>
-                </button>
-                <button
-                    onclick="window.open('https://discordapp.com/users/733190599636680735');"
-                    class="discord"
-                >
-                    <i class="ri-discord-fill"></i>
-                </button>
-                <button
-                    onclick="window.open('mailto:khsaad0404@gmail.com');"
-                    class="email"
-                >
-                    <i class="ri-mail-open-fill"></i>
-                </button>
-            </div>
+            <ul>
+                <li><a href="https://github.com/khsaad04" target="_blank" class="github"><i class="ri-github-fill"></i></a></li>
+                <li><a href="https://discordapp.com/users/733190599636680735" target="_blank" class="discord"><i class="ri-discord-fill"></i></a></li>
+                <li><a href="mailto:khsaad0404@gmail.com" target="_blank" class="email"><i class="ri-mail-open-fill"></i></a></li>
+            </ul>
             <p>© 2023 KHSaad</p>
         </footer>
     </body>
