@@ -70,12 +70,11 @@ nav button:active {
     display: none;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 30rem) {
     .desktop .icon {
-        display: flex;
+        display: inline-block;
     }
 
-    .desktop button,
     .desktop ul {
         display: none;
     }

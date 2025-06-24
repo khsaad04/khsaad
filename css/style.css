@@ -27,7 +27,7 @@ body {
 }
 
 header {
-    background: rgba(19, 20, 12, 0.9);
+    background: rgb(from var(--background) r g b / 0.9);
     position: sticky;
     width: 100vw;
     top: 0;
