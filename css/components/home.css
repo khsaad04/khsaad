@@ -11,13 +11,13 @@
 .home h1 {
     font-size: var(--size-5xl);
     font-weight: 600;
-    padding-bottom: 0.5rem;
+    margin: 1rem 0rem;
 }
 
 .home p {
     font-size: var(--size-2xl);
     color: var(--accent);
-    padding-bottom: 0.5rem;
+    margin: 0.5rem 0rem;
 }
 
 .home .about {
